@@ -42,6 +42,14 @@ All visualizations are rendered dynamically using Plotly, with an interactive we
      jupyter notebook E-Commerce_Analytics _Dashboard.ipynb
 4. **Run all the cells to download the dataset and generate the interactive plots.**
 
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
 ## Author
   Bruno Brehmer Massaneiro
     
