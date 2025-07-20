@@ -1,19 +1,45 @@
-Dashboard interativo para análise de dados de vendas de um e-commerce utilizando Python e bibliotecas como Pandas, Plotly Express e Dash.
-O projeto envolveu todas as etapas do pipeline de dados: extração automatizada de arquivo CSV do Google Drive com gdown, tratamento e limpeza de dados com pandas
-e análise exploratória com a criação de diversos gráficos interativos (histograma, dispersão, bolha, barras, pizza, linha e 3D).
+# E-Commerce Analytics Dashboard
 
-Utilizei o Dash para construir uma aplicação web responsiva com foco em visualização de indicadores-chave (KPIs) relacionados a preço, gênero e sazonalidade de produtos. 
-O painel proporciona insights visuais para tomada de decisão, destacando padrões de consumo e comportamento por temporada.
+This project is a data visualization dashboard built with **Dash** and **Plotly Express** to explore sales and product data from an e-commerce dataset.
 
-Como Executar:
+The application loads the dataset directly from Google Drive and displays a series of interactive charts that help identify sales patterns, seasonal trends, and category behavior based on variables such as price, quantity sold, gender, and season.
 
-Clone este repositório:
+---
 
-git clone https://github.com/BrunoBmassa/Projeto-dashboard-interativo-de-vendas-em-E-Commerce.git
-cd Projeto-dashboard-interativo-de-vendas-em-E-Commerce
+## Features
 
-Instale os pacotes necessários:
-pip install pandas dash plotly gdown
+-  Histogram of product prices  
+-  Scatter plot of price vs. quantity sold by gender  
+-  Bubble chart (size and color by season)  
+-  Line chart of products sold by gender  
+-  Bar chart of sales per season  
+-  Pie chart showing proportion of sales by season  
+-  3D scatter plot showing price, quantity, and gender
 
-Execute o app:
-python dashboard_ecommerce.py
+All visualizations are rendered dynamically using Plotly, with an interactive web UI powered by Dash.
+
+---
+
+## Technologies Used
+
+- Python 3.x  
+- [Dash](https://dash.plotly.com/)  
+- [Plotly Express](https://plotly.com/python/plotly-express/)  
+- [pandas](https://pandas.pydata.org/)  
+- [gdown](https://github.com/wkentaro/gdown) – to download the dataset directly from Google Drive
+
+---
+
+## How to Run the Project
+
+1. **Clone the repository or download the notebook**
+2. **Install the required libraries** (if not already installed):
+     pip install dash plotly pandas gdown
+3. **Open the notebook in Jupyter:**
+     jupyter notebook E-Commerce_Analytics _Dashboard.ipynb
+4. **Run all the cells to download the dataset and generate the interactive plots.**
+
+## Author
+  Bruno Brehmer Massaneiro
+    
+   
