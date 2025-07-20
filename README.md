@@ -1,3 +1,6 @@
+
+![E-Commerce Dashboard Cover](Dashboard_Project.png)
+
 # E-Commerce Analytics Dashboard
 
 This project is a data visualization dashboard built with **Dash** and **Plotly Express** to explore sales and product data from an e-commerce dataset.
