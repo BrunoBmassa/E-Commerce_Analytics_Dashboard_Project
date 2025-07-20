@@ -23,10 +23,10 @@ All visualizations are rendered dynamically using Plotly, with an interactive we
 ## Technologies Used
 
 - Python 3.x  
-- [Dash](https://dash.plotly.com/)  
-- [Plotly Express](https://plotly.com/python/plotly-express/)  
-- [pandas](https://pandas.pydata.org/)  
-- [gdown](https://github.com/wkentaro/gdown) – to download the dataset directly from Google Drive
+- Dash 
+- Plotly Express  
+- Pandas 
+- Gdown
 
 ---
 
